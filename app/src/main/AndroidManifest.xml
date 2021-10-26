@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifecycleActivity26082021">
         <activity
+            android:launchMode="singleInstance"
             android:name=".MainActivity3"
             android:exported="true" />
         <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
-            android:taskAffinity=""
-            android:launchMode="singleTask"
+            android:launchMode="singleInstance"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
